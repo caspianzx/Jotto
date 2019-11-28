@@ -4,7 +4,6 @@ import { findByTestAttr } from '../test/testUtils';
 import { checkProps } from '../test/testUtils';
 
 import GuessedWords from './GuessedWords';
-import expectExport from 'expect';
 
 //default props
 

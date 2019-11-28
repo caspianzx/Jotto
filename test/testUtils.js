@@ -1,5 +1,13 @@
 import checkPropTypes from 'check-prop-types';
-import expectExport from 'expect';
+import { createStore } from 'redux';
+
+import rootReducer from '../src/reducer/index';
+
+//creating storeFactory
+
+export const storeFactory = initialState => {
+  return createStore(rootReducer, initialState);
+};
 
 //find attribute
 export const findByTestAttr = (wrapper, val) => {
