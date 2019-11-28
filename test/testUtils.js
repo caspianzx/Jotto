@@ -15,7 +15,6 @@ export const findByTestAttr = (wrapper, val) => {
 };
 
 //reusable check props
-
 export const checkProps = (component, conformingProps) => {
   const propError = checkPropTypes(
     component.propTypes,
